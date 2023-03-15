@@ -33,24 +33,24 @@
 
 - the general structure of the JSON file of the test being executed:
 
-{
-"URL":"[resource address]",
-"Check Name": "[query parameter]"
-}
+	{
+	"URL":"[resource address]",
+	"Check Name": "[query parameter]"
+	}
 
 - an example of creating a test for a GET request:
 
-{
-"URL":"https://reqres.in/api/users/",
-"Check user":"2"
-}
+	{
+	"URL":"https://reqres.in/api/users/",
+	"Check user":"2"
+	}
 
 - an example of creating a test for a POST request:
 
-{
-"URL":"https://reqres.in/api/users",
-"Create user":{"name": "morpheus","job": "leader"}
-}
+	{
+	"URL":"https://reqres.in/api/users",
+	"Create user":{"name": "morpheus","job": "leader"}
+	}
 
 
 *files must be numbered in order of testing priority:
