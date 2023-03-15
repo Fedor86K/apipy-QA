@@ -1,0 +1,57 @@
+*RU*
+
+!ПЕРЕД РАЗРАБОТКОЙ ТЕСТОВ ОЗНАКОМТЕСЬ С ДОКУМЕНТАЦИЕЙ НА API!
+
+- общая структара JSON файла выполняемого теста:
+
+	{
+	"URL":"[адрес ресурса]",
+	"Название проверки":"[параметр запроса]"
+	}
+
+- пример создания теста для GET запроса:
+
+	{
+	"URL":"https://reqres.in/api/users/",
+	"Check user":"2"
+	}
+
+- пример создания теста для POST запроса:
+
+	{
+	"URL":"https://reqres.in/api/users",
+	"Create user":{"name": "morpheus","job": "leader"}
+	}
+
+	
+*файлы необходимо пронумеровать в порядке приоритета выполнения тестирования:
+ TEST 1, TEST 2, TEST 3.... 
+
+*EN*
+
+!PLEASE READ THE API DOCUMENTATION BEFORE DEVELOPING TESTS!
+
+- the general structure of the JSON file of the test being executed:
+
+{
+"URL":"[resource address]",
+"Check Name": "[query parameter]"
+}
+
+- an example of creating a test for a GET request:
+
+{
+"URL":"https://reqres.in/api/users/",
+"Check user":"2"
+}
+
+- an example of creating a test for a POST request:
+
+{
+"URL":"https://reqres.in/api/users",
+"Create user":{"name": "morpheus","job": "leader"}
+}
+
+
+*files must be numbered in order of testing priority:
+ TEST 1, TEST 2, TEST 3....
