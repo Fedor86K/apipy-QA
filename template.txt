@@ -1,8 +1,11 @@
-*RU*
+
+**! Обратите внимание, что скрипт не подходит для визуализации ответов с объёмным Response body !**
+
+**! Обратите внимание, что скрипт не выдает информации по Response headers !**
 
 !ПЕРЕД РАЗРАБОТКОЙ ТЕСТОВ ОЗНАКОМТЕСЬ С ДОКУМЕНТАЦИЕЙ НА API!
 
-- общая структара JSON файла выполняемого теста:
+- общая структура JSON файла выполняемого теста:
 
 	{
 	"URL":"[адрес ресурса]",
@@ -26,32 +29,3 @@
 	
 *файлы необходимо пронумеровать в порядке приоритета выполнения тестирования:
  TEST 1, TEST 2, TEST 3.... 
-
-*EN*
-
-!PLEASE READ THE API DOCUMENTATION BEFORE DEVELOPING TESTS!
-
-- the general structure of the JSON file of the test being executed:
-
-	{
-	"URL":"[resource address]",
-	"Check Name": "[query parameter]"
-	}
-
-- an example of creating a test for a GET request:
-
-	{
-	"URL":"https://reqres.in/api/users/",
-	"Check user":"2"
-	}
-
-- an example of creating a test for a POST request:
-
-	{
-	"URL":"https://reqres.in/api/users",
-	"Create user":{"name": "morpheus","job": "leader"}
-	}
-
-
-*files must be numbered in order of testing priority:
- TEST 1, TEST 2, TEST 3....
