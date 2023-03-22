@@ -1,5 +1,5 @@
 
-print("\n" + " "*10 + "Welcome to QApiPy launcher!" + " "*10)
+print("\n" + " "*10 + "Welcome to QApipy launcher!" + " "*10)
 
 choice = input("\nPress key 1 (POST mode) or key 2 (GET mode)...")
 
