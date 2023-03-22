@@ -1,2 +1,0 @@
-python QApiPy.py
-pause
