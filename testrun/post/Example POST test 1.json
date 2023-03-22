@@ -1,5 +1,5 @@
 {
 "URL":"https://reqres.in/api/users/",
 "Create user":{"name": "morpheus", "job": "leader"},
-"Check":"201"
+"Status code":"201"
 }
