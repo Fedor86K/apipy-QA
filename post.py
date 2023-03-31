@@ -40,7 +40,7 @@ def run(test,url,send,check,number):
         data = response.json()
         string = json.dumps(data,indent = 4)
 
-        if str(status) == check:
+        if status == check:
             result = "PASS"
         else:
             result = "FAIL"
