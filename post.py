@@ -45,7 +45,7 @@ def run(test,url,send,check,number):
         else:
             result = "FAIL"
                 
-        print("---" *10 + "TEST ",number,"---" *10)
+        print("---" *10 + "TEST",number,"---" *10)
         print("\nTEST NAME: ",test)
         print("\nURL: ",url)
         print("\nREQUEST: ",send)
